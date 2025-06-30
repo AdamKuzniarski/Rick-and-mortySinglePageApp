@@ -7,7 +7,7 @@ export function createCharacterCard(character) {
   newElement.innerHTML = `
         <div class="card__image-container">
             <img
-              class="card__image"
+              class="card__image" 
               src="${character.image}"
               alt="${character.name}"
             />
