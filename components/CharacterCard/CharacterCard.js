@@ -1,6 +1,8 @@
 const cardContainer = document.querySelector('[data-js="card-container"]');
 
-export function createCharacterCard() {
+
+import { cardContainer } from "../../index.js"; 
+export function createCharacterCard(character) {
     
   cardContainer.innerHTML = `
     <li class="card">
