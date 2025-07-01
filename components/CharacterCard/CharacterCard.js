@@ -1,6 +1,4 @@
-// const cardContainer = document.querySelector('[data-js="card-container"]');
-
-//import { cardContainer } from "../../index.js";
+// function that creates new cards for the characters
 export function createCharacterCard(character) {
   const newElement = document.createElement("li");
   newElement.classList.add("card");
