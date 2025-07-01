@@ -9,6 +9,14 @@
     <title>Rick and Morty Character Log</title>
     <link rel="stylesheet" href="./styles.css" />
     <script type="module" src="./index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1 class="title">Rick and More</h1>
@@ -23,7 +31,11 @@
             placeholder="search characters"
             aria-label="character name"
           />
-          <button class="search-bar__button" data-js="search-button" aria-label="search for character">
+          <button
+            class="search-bar__button"
+            data-js="search-button"
+            aria-label="search for character"
+          >
             <img
               class="search-bar__icon"
               src="assets/magnifying-glass.png"
@@ -32,8 +44,7 @@
           </button>
         </form>
       </div>
-      <ul class="card-container" data-js="card-container">
-      </ul>
+      <ul class="card-container" data-js="card-container"></ul>
     </main>
     <nav class="navigation" data-js="navigation">
       <button class="button button--prev" data-js="button-prev">
