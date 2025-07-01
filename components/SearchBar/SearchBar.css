@@ -4,6 +4,7 @@
 
 .search-bar {
   padding: 10px 20px;
+  font-family: "Work Sans", sans-serif;
   background-color: var(--color-secondary);
   display: grid;
   grid-template-columns: 1fr 24px;

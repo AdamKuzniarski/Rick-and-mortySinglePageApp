@@ -12,10 +12,15 @@
 :root {
   --color-primary: rgb(51, 51, 51);
   --color-secondary: #f6f6f6;
-  --font-family: system-ui;
+  --font-family: "Work Sans", sans-serif;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
   font-family: var(--font-family);
   color: var(--color-primary);
   padding: 20px;
